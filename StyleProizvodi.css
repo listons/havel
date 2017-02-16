@@ -1,0 +1,64 @@
+.laptop1
+{
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	margin-left: 40px;
+}
+.laptop1 img
+{
+	width: 260px;
+	height: 260px;
+}
+
+.ultrabook1
+{
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	margin-left: 320px;
+}
+.ultrabook1 img
+{
+	width: 260px;
+	height: 260px;
+}
+.netbook1
+{
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	margin-left: 640px;
+}
+.netbook1 img
+{
+	width: 260px;
+	height: 260px;
+}
+.laptop2
+{
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 300px;
+}
+.laptop2 img
+{
+	width: 260px;
+	height: 260px;
+}
+#laptop
+{
+	display: block;
+}
+
+#notebook
+{
+	display: block;
+}
+
+#ultrabook
+{
+	display: block;
+}
