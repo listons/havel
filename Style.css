@@ -1,0 +1,209 @@
+﻿body 
+{
+    margin: 0;
+    background-image: url("images/side6.jpg");
+}
+
+#container
+{
+    width:1000px;
+    height:2000px;
+    margin:0 auto;
+    background-color:white;  
+    
+}
+
+#kontakt
+{
+    text-align: right;
+    width:100%;
+    height:30px;
+    background-color: black;
+    color: white;
+    margin-bottom: 4px;
+}
+
+#headContainer
+{
+    margin-bottom: 4px;
+    text-align:center;
+    width:100%;
+    height:170px;
+        
+}
+#headContainer h1
+{
+    margin: 40px;    
+    font-family:Arsenal;
+    font-size: 140px;
+    line-height:130px;
+    text-align: center;
+    color:black;
+        
+}
+#headContainer h2
+{
+    margin:0;
+    font-family:Buxton Sketch;
+    font-size: 40px;
+    line-height:30px;
+    margin-left: 15px;
+    color:#0E0E0E;
+        
+}
+#menu
+{
+    width:100%;
+    height:30px;
+    background-color: black; 
+
+}
+
+#slider
+{
+    width: 100%;
+    height: 400px;
+}
+#slider img
+{
+    width: 100%;
+    height: 400px;
+}
+
+#glavni
+{
+    font-family: Arial;
+    color: black;
+    width:100%;
+}
+#slikaMenu
+{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+#slikaMenu img
+{
+    position: absolute;
+    color: white;
+    width: 150px;
+    height: 100px;
+}
+
+#slikaMenu p
+{
+    color: white;
+    position: absolute;
+}
+
+.laptopS
+{
+
+    margin-top: 30px;
+    margin-left: 30px;  
+}
+.laptopT
+{
+    margin-top: 170px;
+    margin-left: 75px;  
+}
+
+.alat
+{
+    margin-top: 30px;
+    margin-left: 230px; 
+}
+
+.alatT
+{
+    margin-top: 170px;
+    margin-left: 290px;  
+}
+
+#foot
+{      
+    background-color: black;
+    height: 150px;
+    width: 1000px;
+    margin:0 auto; 
+    text-align:center;
+}
+
+#foot h1{
+    color: white;
+    margin:5px;
+    font-family:Arsenal;
+    font-size: 50px;
+    line-height:50px;
+    align-content:center;
+}
+#foot h2{
+    color: white;
+    font-size: 14px;
+    line-height:20px;
+    font-family:arial;
+    align-content:center;
+    
+}
+.menuItems
+{
+    
+    color: white;
+    height:30px;
+    font-family:Corbel;
+    text-decoration: none;
+    padding-left:20px;
+    padding-right:20px;
+    float:left;
+    line-height:25px;
+    font-size: 14px;
+    border: 3px solid white;
+    border-width:0px 1px 0px 0px;
+}
+.menuItems:hover
+{
+    background-color: white;
+    color:black;
+    
+    
+}
+.menuItems1
+{
+    
+    color: white;
+    height:30px;
+    font-family:Corbel;
+    text-decoration: none;
+    padding-left:20px;
+    padding-right:20px;
+    float:right;
+    line-height:25px;
+    font-size: 14px;
+    border: 3px solid white;
+    border-width:0px 0px 0px 1px;
+}
+.menuItems1:hover
+{
+    background-color: white;
+    color:black;
+    
+    
+}
+
+.social
+{
+    
+    height:28px;
+    width:28px;
+    position:absolute;   
+    background-repeat: no-repeat;
+    margin:1px 1px 1px 1px;
+}
+.fb{
+    left:85%;
+
+}
+.ins{
+  left:87.2%;
+}
