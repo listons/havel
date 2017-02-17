@@ -20,13 +20,6 @@ body
   transition: background-color 0.7s ease;
 }
 
-.tac{
-
-  margin-top: -50px;
-  position: absolute;
-  padding-left:450px;
- 
-}
 .active,.dot:hover {
   background-color: #717171;
 }
