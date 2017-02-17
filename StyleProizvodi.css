@@ -62,3 +62,16 @@
 {
 	display: block;
 }
+
+.izgled
+{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom:30px;
+	height: 260px;
+	width: 260px;
+	float: left;
+	text-align: bottom;
+	text-decoration-color: black;
+}
