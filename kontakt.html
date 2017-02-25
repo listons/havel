@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>O nama - HAVEL</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <link href="StyleKontakt.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+
+    <div id="container">
+       <div id = "kontakt">
+
+             <a class="soc" href="">
+        <div id="fb" class="social"></div>
+        </a>
+
+        <a class="soc" href="">
+        <div id="ins" class="social"></div>
+        </a>
+
+        <a class="soc" href="">
+        <div id="g" class="social"></div>
+        </a>
+
+            <a class="menuItems1" href="">Kontakt</a>
+            <a class="menuItems1" href="oNama.html">O nama</a>
+       </div>
+        <div id="headContainer"></div>
+
+         <div id="menu">
+            <a class="menuItems" href="index.html">Po&#269etna</a>
+            <a class="menuItems" href="akcije.html">Akcije</a>
+            <a class="menuItems" href="katalog.html">Katalog</a>
+           
+        </div>
+        <div id="glavni">
+        <p id="text">
+            Mozete nas pronaci u ulici :<br>
+             Branka Miljkovića br. 84<br><br>
+            Kontakt telefon :<br>
+            018 / 229-097
+        </p>
+        
+<div id="mapa">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCjeQptYZ4SrPifN6FHI4exTjvM_qDCPY8'>
+    
+</script>
+<div style='overflow:hidden;height:400px;width:520px;'>
+<div id='gmap_canvas' style='height:400px;width:520px;'>
+    
+</div>
+<style>#gmap_canvas img{max-width:none!important;background:none!important}
+</style>
+</div> 
+<a href='https://add-map.com/'>google map widget</a>
+ <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=b01f66e717fc3029a3b71121f17f40e62c7f1ec8'>
+     
+ </script>
+ <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(43.3203302,21.929385499999967),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(43.3203302,21.929385499999967)});infowindow = new google.maps.InfoWindow({content:'<strong>Havel</strong><br>Branka Miljkovica 84<br>18000 Nis<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+ </script>
+</div>
+<div id="poruka">
+        <form>
+            <input id="tekst1" type="text" name="ime" value="Ime" onblur="if (this.value == '') {this.value = 'Ime';}" onfocus="if (this.value == 'Ime') {this.value = '';}"><br><br>
+            <input id="tekst1" type="email" name="mail" value="Email" onblur="if (this.value == '') {this.value = 'Email';}" onfocus="if (this.value == 'Email') {this.value = '';}"><br><br>
+            <textarea id="tekst" type="text" onblur="if (this.value == '') {this.value = 'Unesite text poruke';}" onfocus="if (this.value == 'Unesite text poruke') {this.value = '';}">Unesite text poruke</textarea>
+            <br><br>
+            <input onclick="" id="dugme" type="submit" name="sub" value="Potvrdi">
+        </form>
+        </div>
+       </div>               
+
+    </div>
+
+        <div id="foot">
+             <h1>HAVEL</h1>
+
+          
+<a id="ffb" class="fsoc" href=""><div id="fb" class="social"></div></a>
+        
+<a id="fin" class="fsoc" href=""><div id="ins" class="social"></div></a>
+       
+<a id="fg" class="fsoc" href=""><div id="g" class="social"></div></a>
+            
+            <br>
+        
+<h2>© 2017 All Rights Reserved. Made by Makers.</h2> 
+        </div>
+     <script src="ScriptKontakt.js"></script>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
