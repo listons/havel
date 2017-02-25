@@ -20,8 +20,7 @@
     height:29px;
     background-color: black;
     color: white;
-
-  
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
 }
 
 #headContainer
@@ -44,6 +43,7 @@
 {
     width: 100%;
     height: 38px;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
     background-color: black; 
 
 }
@@ -117,7 +117,7 @@
     width: 1000px;
     margin:0 auto; 
     text-align:center;
-    
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
    background-color: black; 
 }
 
@@ -143,7 +143,7 @@
 {
     
     color: white;
-    height:38px;
+    height:37px;
     font-family:Arial;
     text-decoration: none;
     padding-left:20px;
@@ -165,7 +165,7 @@
 {
     
     color: white;
-    height:21px;
+    height:20px;
     font-family:arial;
     text-decoration: none;
     padding-left:8px;
