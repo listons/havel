@@ -1,0 +1,50 @@
+.elementi{
+
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 320px 200px;
+    height:200px;
+    width:320px;
+    padding-top: 20px;   
+    position: absolute;
+
+}
+
+#lap
+{
+
+    background-image: url('images/poc/laptop.jpg');
+    margin-left: 10px;
+}
+
+#tab
+{
+
+    background-image: url('images/poc/tablet.jpg');
+    margin-left: 340px;
+}
+
+#ap
+{
+
+    background-image: url('images/poc/mikro.jpg');
+    margin-left: 670px;
+}
+
+#bas
+{
+
+    background-image: url('images/poc/basta.jpg');
+    margin-left: 175px;
+}
+
+#alt
+{
+
+    background-image: url('images/poc/alat.jpg');
+    margin-left: 505px;
+}
+#red2
+{
+	padding-top: 210px;
+}
