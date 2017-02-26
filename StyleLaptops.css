@@ -1,0 +1,77 @@
+#container{
+	 height:750px;
+}
+
+.elementi{
+
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 280px 175px;
+    height:175px;
+    width:280px;      
+    position: absolute;    
+    z-index: 1 ;
+}
+.crn{	
+	color: white;
+	text-align: center;
+    background-color: white;
+    height:210px;
+    color: black;
+    width:280px;      
+    position: absolute;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+}
+.crn1{	
+	margin-top: 30px;
+	color: white;
+	text-align: left;
+    background-color: white;
+    height:210px;
+    color:  #b3b3b3;
+    width:280px;      
+    position: absolute;    
+    font-size: 14px;
+    
+}
+.crn1 h1{
+	font-weight: bold;
+	color:  #999999;
+	font-size: 18px;
+	text-align: center;
+}
+.crn:hover{
+	background-color: #e6e6e6;		
+	font-weight: bold;
+}
+#linka{
+	margin-top: 240px;
+	background-color: #f2f2f2;
+	height: 1px;
+	width: 998px;
+}
+
+
+#red1{ padding-top: 30px; }
+
+#red2{ padding-top: 240px; }
+
+.lap{ background-image: url('images/poc/laptop.jpg'); }
+
+.tab{ background-image: url('images/poc/tablet.jpg'); }
+
+.ap{ background-image: url('images/poc/mikro.jpg'); }
+
+.bas{ background-image: url('images/poc/basta.jpg'); }
+
+.alt{ background-image: url('images/poc/alat.jpg'); }
+
+.lap1{ margin-left: 40px; }
+
+.tab1{ margin-left: 360px; }
+
+.ap1{ margin-left: 680px; }
+
+.bas1{ margin-left: 200px; }
+
+.alt1{ margin-left: 520px; }

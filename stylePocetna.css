@@ -77,9 +77,6 @@
 .alt1{ margin-left: 520px; }
 
 .opsirnije{
-
-
-	
     background-color: #999999;
     height:35px;
     color: white;
@@ -87,6 +84,11 @@
     position: absolute;
     z-index: 5;
 }
+
+.opsirnije:hover{
+    background-color: #3D3D3D;
+}
+
 .opsirnije h3{
 	font-family: arial;
 	font-size: 14px;
@@ -94,4 +96,104 @@
  	top: 3px;
  	text-align: center;
  	transform: translateY(-50%);
+}
+
+#dostava
+{
+    background-color: white;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+    display: none;
+    z-index: 10;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    color:  #b3b3b3;
+    font-size: 18px;
+}
+#dostava h1{
+    font-weight: bold;
+    color:  #999999;
+    font-size: 18px;
+    text-align: center;
+
+}
+#dostava p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#placanje
+{
+    background-color: white;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+    display: none;
+    z-index: 10;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    color:  #b3b3b3;
+    font-size: 18px;
+}
+#placanje h1{
+    font-weight: bold;
+    color:  #999999;
+    font-size: 18px;
+    text-align: center;
+
+}
+#placanje p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Oproizvodi{
+    background-color: white;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+    display: none;
+    z-index: 10;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    color:  #b3b3b3;
+    font-size: 18px;
+}
+
+.Oproizvodi h1{
+    font-weight: bold;
+    color:  #999999;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Oproizvodi p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#Olaptop{
+        margin-left: 350px;
+}
+
+#Otablet{
+        margin-left: 10px;
+}
+
+#Oaparati{
+        margin-left: 270px;
+}
+
+#Obasta{
+        margin-left: 500px;
+}
+
+#Oalat{
+        margin-left: 100px;
 }
