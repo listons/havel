@@ -1,36 +1,126 @@
+#container{
+	 height:1000px;
+}
 #mapa{
 	position: absolute;
-	margin-top: 20px;
-	margin-left: 460px;
+	margin-top: 30px;
+	margin-left: 450px;
+	box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
 }
  
 #text
 {
-	font-family: arial;
-	padding-left: 20px;
 	position: absolute;
+	padding-left: 25px;
+	margin-left: 30px;
+	margin-top: 30px;
+	height: 400px;
+	width: 300px;
+	color: #999999;
+	font-family: arial;	
 	text-align: left;
+	box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+}
+#text  p {
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+}
+#text h1{
+	color: black;
 }
 
 #poruka{
-	padding-left: 20px;
+	box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+	position: absolute;
+	width: 940px;
+	height: 280px;
+	margin-left: 30px;	
 	font-style: black;
 	font-family: arial;
-	padding-top: 150px;
+	margin-top:  460px;
 	position: absolute;
 }
-
-#tekst{
-	text-align: left;
+#poruka h2{
+	margin-top: 2px;
+	margin-left: 30px;
+}
+#poruka h3{
 	font-family: arial;
-	width: 300px;
-	height: 150px;
+	font-size: 14px;
+	position: absolute;
+	color: #999999;
+}
+#tekst{
+	margin-top: 10px;
+	margin-left: 420px;
+	position: absolute;
+	font-family: arial;
+	font-size: 14px;
+	width: 480px;
+	height: 190px;
 }
 
-#tekst1{
+#txime{
+	margin-top: 10px;
+	margin-left: 30px;
+	position: absolute;
+	font-family: arial;
+	font-size: 14px;
 	width: 300px;
+	height: 23px;
+
+}
+#txmail{
+	margin-top: 65px;
+	margin-left: 30px;
+	position: absolute;
+	font-family: arial;
+	font-size: 14px;
+	width: 300px;
+	height: 23px;
+}
+#txbr{
+	margin-top: 120px;
+	margin-left: 30px;
+	position: absolute;
+	font-family: arial;
+	font-size: 14px;
+	width: 300px;
+	height: 23px;
 }
 
 #dugme{
-	margin-left: 120px;
+
+	position: absolute;
+	margin-top: 175px;
+	margin-left: 30px;
+	font-size: 14px;
+    color: white;
+    background-color: #999999;
+    border: 0px;
+    height: 30px;
+	width: 303px;
+}
+
+#imence{
+	margin-left: 30px;
+	margin-top: -10px;
+	font-style: none;
+}
+#mejlic{
+	margin-left: 30px;
+	margin-top: 45px;
+	font-style: none;
+}
+#foncic{
+	margin-left: 30px;
+	margin-top: 100px;
+	font-style: none;
+}
+
+#porukica{
+	margin-left: 420px;
+	margin-top: -10px;
+	font-style: none;
 }

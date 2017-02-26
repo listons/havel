@@ -45,5 +45,5 @@ function carousel() {
       dots[i].className = dots[i].className.replace(" active", "");
     }
     }
-    time = setTimeout(carousel, 3000); // menja sliku na 3 sekunde
+    time = setTimeout(carousel, 4000); // menja sliku na 4 sekunde
 }

@@ -37,12 +37,20 @@
            
         </div>
         <div id="glavni">
-        <p id="text">
+        <div id="text">
+        <h1>KONTAKT</h1>
+        <p>HAVEL</p>
+            Vlasnik:<br>
+            Nenad Kovanđić<br><br>
             Mozete nas pronaci u ulici :<br>
-             Branka Miljkovića br. 84<br><br>
+            Branka Miljkovića br. 84<br><br>
             Kontakt telefon :<br>
-            018 / 229-097
-        </p>
+            018 / 229-097<br>
+            06z / xxx-yyy<br><br>
+            Email:<br>
+            zzxxyy@zzxxyy.com
+        </div>
+
         
 <div id="mapa">
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCjeQptYZ4SrPifN6FHI4exTjvM_qDCPY8'>
@@ -55,24 +63,38 @@
 <style>#gmap_canvas img{max-width:none!important;background:none!important}
 </style>
 </div> 
-<a href='https://add-map.com/'>google map widget</a>
+<a href='https://add-map.com/'>google map</a>
  <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=b01f66e717fc3029a3b71121f17f40e62c7f1ec8'>
      
  </script>
  <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(43.3203302,21.929385499999967),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(43.3203302,21.929385499999967)});infowindow = new google.maps.InfoWindow({content:'<strong>Havel</strong><br>Branka Miljkovica 84<br>18000 Nis<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
  </script>
-</div>
-<div id="poruka">
+</div><!--KRAJ DIVA MAPA-->
+
+
+   <div id="poruka">
+   <h2>KONTAKT FORMA</h2>
+   <h3 id="imence">Ime i prezime:</h3>
+   <h3 id="mejlic">Email:</h3>
+   <h3 id="foncic">Broj telefona:</h3>
+   <h3 id="porukica">Poruka:</h3>
         <form>
-            <input id="tekst1" type="text" name="ime" value="Ime" onblur="if (this.value == '') {this.value = 'Ime';}" onfocus="if (this.value == 'Ime') {this.value = '';}"><br><br>
-            <input id="tekst1" type="email" name="mail" value="Email" onblur="if (this.value == '') {this.value = 'Email';}" onfocus="if (this.value == 'Email') {this.value = '';}"><br><br>
-            <textarea id="tekst" type="text" onblur="if (this.value == '') {this.value = 'Unesite text poruke';}" onfocus="if (this.value == 'Unesite text poruke') {this.value = '';}">Unesite text poruke</textarea>
-            <br><br>
+            <input id="txime" type="text" name="ime" value="">
+            <input id="txmail" type="email" name="mail" value="" >
+            <input id="txbr" type="number" name="quantity" value="" >
+
+            <textarea id="tekst" type="text" ></textarea>
+            
             <input onclick="" id="dugme" type="submit" name="sub" value="Potvrdi">
         </form>
-        </div>
-       </div>               
+    </div>
 
+
+
+
+
+
+       </div>
     </div>
 
         <div id="foot">
