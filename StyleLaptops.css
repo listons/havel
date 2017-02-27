@@ -1,77 +1,89 @@
 #container{
-	 height:750px;
+	 height:2800px;
+}
+.bel{ 
+
+    margin-left: 30px;  
+    color: white;
+    text-align: center;
+    background-color: white;
+    height:220px;
+    color: black;
+    width:940px;       
+    position: absolute;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
 }
 
 .elementi{
 
 	background-position: center;
     background-repeat: no-repeat;
-    background-size: 280px 175px;
-    height:175px;
-    width:280px;      
+    background-size: 245px 210px;
+    height:220px;
+    width:256px; 
     position: absolute;    
     z-index: 1 ;
 }
-.crn{	
-	color: white;
-	text-align: center;
-    background-color: white;
-    height:210px;
-    color: black;
-    width:280px;      
+.lime{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: arial;
     position: absolute;
-    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+    margin-top: 5px;
+    margin-left: 50%;
 }
-.crn1{	
-	margin-top: 30px;
-	color: white;
-	text-align: left;
-    background-color: white;
-    height:210px;
-    color:  #b3b3b3;
-    width:280px;      
-    position: absolute;    
-    font-size: 14px;
-    
+.lproc{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    position: absolute;
+    margin-top: 50px;
+    padding-left:  260px;
 }
-.crn1 h1{
-	font-weight: bold;
-	color:  #999999;
-	font-size: 18px;
-	text-align: center;
+.lmemo{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    position: absolute;
+    margin-top: 100px;
+    padding-left:  260px;
 }
-.crn:hover{
-	background-color: #e6e6e6;		
-	font-weight: bold;
+.lekr{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    position: absolute;
+    margin-top: 150px;
+    padding-left:  260px;
 }
-#linka{
-	margin-top: 240px;
-	background-color: #f2f2f2;
-	height: 1px;
-	width: 998px;
+.lcena{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 50%;
 }
 
+.lap1{ background-image: url('images/laptopi/l1.jpg'); }
+.lap2{ background-image: url('images/laptopi/l2.jpg'); }
+.lap3{ background-image: url('images/laptopi/l3.jpg'); }
+.lap4{ background-image: url('images/laptopi/l4.jpg'); }
+.lap5{ background-image: url('images/laptopi/l5.jpg'); }
+.lap6{ background-image: url('images/laptopi/l6.jpg'); }
+.lap7{ background-image: url('images/laptopi/l7.jpg'); }
+.lap8{ background-image: url('images/laptopi/l8.jpg'); }
+.lap9{ background-image: url('images/laptopi/l9.jpg'); }
+.lap10{ background-image: url('images/laptopi/l10.jpg'); }
+.b1{    margin-top: 30px; }
+.b2{    margin-top: 280px; }
+.b3{    margin-top: 530px; }
+.b4{    margin-top: 780px; }
+.b5{    margin-top: 1030px; }
+.b6{    margin-top: 1280px; }
+.b7{    margin-top: 1530px; }
+.b8{    margin-top: 1780px; }
+.b9{    margin-top: 2030px; }
+.b10{    margin-top: 2280px; }
 
-#red1{ padding-top: 30px; }
 
-#red2{ padding-top: 240px; }
-
-.lap{ background-image: url('images/poc/laptop.jpg'); }
-
-.tab{ background-image: url('images/poc/tablet.jpg'); }
-
-.ap{ background-image: url('images/poc/mikro.jpg'); }
-
-.bas{ background-image: url('images/poc/basta.jpg'); }
-
-.alt{ background-image: url('images/poc/alat.jpg'); }
-
-.lap1{ margin-left: 40px; }
-
-.tab1{ margin-left: 360px; }
-
-.ap1{ margin-left: 680px; }
-
-.bas1{ margin-left: 200px; }
-
-.alt1{ margin-left: 520px; }
