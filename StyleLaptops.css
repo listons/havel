@@ -1,5 +1,5 @@
 #container{
-	 height:2800px;
+	 height:3000px;
 }
 
 .podacivise
@@ -10,11 +10,11 @@
     color: white;
     text-align: center;
     background-color: white;
-    height:720px;
+    height:470px;
     color: black;
     width:940px;       
     position: absolute;
-    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+    box-shadow: 0px 2px 16px 6px rgba(0,0,0,2);
 }
 
 #laptop1
