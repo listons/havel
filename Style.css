@@ -3,7 +3,11 @@
     margin: 0;
     background-image: url("images/bg2.jpg");
 }
-
+.crn p{   
+    position: relative;
+    padding-top: 180px;
+    margin: auto;
+}
 #container
 {
     width:1000px;   

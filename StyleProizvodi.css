@@ -1,5 +1,5 @@
 #container{
-	 height:750px;
+	 height:1100px;
 }
 
 .elementi{
@@ -52,13 +52,19 @@
 }
 
 
-#red1{ padding-top: 30px; }
+#red1{ padding-top: 60px; }
 
-#red2{ padding-top: 240px; }
+#red2{ padding-top: 270px; }
+
+#red3{ padding-top: 270px; }
 
 .lap{ background-image: url('images/poc/laptop.jpg'); }
 
 .tab{ background-image: url('images/poc/tablet.jpg'); }
+
+.mob{ background-image: url('images/poc/fon.jpg'); }
+
+.usi{ background-image: url('images/poc/usisi.jpg'); }
 
 .ap{ background-image: url('images/poc/mikro.jpg'); }
 
@@ -66,12 +72,26 @@
 
 .alt{ background-image: url('images/poc/alat.jpg'); }
 
-.lap1{ margin-left: 40px; }
+.lap1{ margin-left: 260px; }
 
-.tab1{ margin-left: 360px; }
+.tab1{ margin-left: 610px; }
 
-.ap1{ margin-left: 680px; }
+.mob1{  margin-left: 260px; }
 
-.bas1{ margin-left: 200px; }
+.usi1{ margin-left: 610px; }
 
-.alt1{ margin-left: 520px; }
+.ap1{ margin-left: 260px; }
+
+.bas1{ margin-left: 260px; }
+
+.alt1{ margin-left: 610px; }
+
+
+#navigacija
+{
+    position: absolute;
+    margin-top: 60px;
+    width: 150px;
+    height: 750px;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+}
