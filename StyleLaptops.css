@@ -115,7 +115,7 @@ margin-left: 350px;
 #navigacija
 {
     position: absolute;
-    margin: 0px;
+    margin-top: 60px;
     width: 150px;
     height: 100%;
     box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
@@ -139,11 +139,9 @@ margin-left: 350px;
     box-shadow: 0px 2px 20px 4px rgba(0,0,0,2);
 }
 
-.elementi{
-
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: 245px 210px;
+.elementi
+{
+    background-color: red;
     height:220px;
     width:256px; 
     position: absolute;    
@@ -169,16 +167,7 @@ margin-left: 350px;
     margin-left: 50%;
 }
 
-.lap1{ background-image: url('images/laptopi/l1.jpg'); }
-.lap2{ background-image: url('images/laptopi/l2.jpg'); }
-.lap3{ background-image: url('images/laptopi/l3.jpg'); }
-.lap4{ background-image: url('images/laptopi/l4.jpg'); }
-.lap5{ background-image: url('images/laptopi/l5.jpg'); }
-.lap6{ background-image: url('images/laptopi/l6.jpg'); }
-.lap7{ background-image: url('images/laptopi/l7.jpg'); }
-.lap8{ background-image: url('images/laptopi/l8.jpg'); }
-.lap9{ background-image: url('images/laptopi/l9.jpg'); }
-.lap10{ background-image: url('images/laptopi/l10.jpg'); }
+
 .b1{    margin-top: 30px; }
 .b2{    margin-top: 280px; }
 .b3{    margin-top: 530px; }
