@@ -6,7 +6,7 @@
     <link href="Style.css" rel="stylesheet" type="text/css" />
     <link href="StyleLaptops.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body onload="prikaziPrvuStranu()">
     
 
     <div id="container">
@@ -46,7 +46,6 @@
             <button class="dugmiki" id="dug2"onclick="prikaziDruguStranu()">2</button>
             <button class="dugmiki" id="dug3"onclick="prikaziTrecuStranu()">3</button>
             <button class="dugmiki" id="dug4"onclick="prikaziCetvrtuStranu()">4</button>
-            <button class="dugmiki" id="dug5"onclick="prikaziPetuStranu()">5</button>
 
             <select class="lista" onchange="sort(this.value)" >
             <option selected disabled hidden  >Sortiraj:</option>

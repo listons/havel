@@ -6,55 +6,112 @@ function prikazi(n){ //Prikazuje proizvode
 function sakri(n){ //Sakriva proizvode
         document.getElementById(n).style.display = 'none';
 }
+function sakriSve(){
+    document.getElementById("1").style.display = 'none';
+    document.getElementById("2").style.display = 'none';
+    document.getElementById("3").style.display = 'none';
+    document.getElementById("4").style.display = 'none';
+    document.getElementById("5").style.display = 'none';
+    document.getElementById("6").style.display = 'none';
+    document.getElementById("7").style.display = 'none';
+    document.getElementById("8").style.display = 'none';
+    document.getElementById("9").style.display = 'none';
+    document.getElementById("10").style.display = 'none';
+    document.getElementById("11").style.display = 'none';
+    document.getElementById("12").style.display = 'none';
+    document.getElementById("13").style.display = 'none';
+    document.getElementById("14").style.display = 'none';
+    document.getElementById("15").style.display = 'none';
+    document.getElementById("16").style.display = 'none';
+    document.getElementById("17").style.display = 'none';
+    document.getElementById("18").style.display = 'none';
+    document.getElementById("19").style.display = 'none';
+    document.getElementById("20").style.display = 'none';
+    document.getElementById("21").style.display = 'none';
+    document.getElementById("22").style.display = 'none';
+    document.getElementById("23").style.display = 'none';
+    document.getElementById("24").style.display = 'none';
+    document.getElementById("25").style.display = 'none';
+    document.getElementById("26").style.display = 'none';
+    document.getElementById("27").style.display = 'none';
+    document.getElementById("28").style.display = 'none';
+    document.getElementById("29").style.display = 'none';
+    document.getElementById("30").style.display = 'none';
+    document.getElementById("31").style.display = 'none';
+    document.getElementById("32").style.display = 'none';
+    document.getElementById("33").style.display = 'none';
+    document.getElementById("34").style.display = 'none';
+    document.getElementById("35").style.display = 'none';
+    document.getElementById("36").style.display = 'none';
+    document.getElementById("37").style.display = 'none';
+    document.getElementById("38").style.display = 'none';
+    document.getElementById("39").style.display = 'none';
+    document.getElementById("40").style.display = 'none';
+    document.getElementById("41").style.display = 'none';
+    document.getElementById("42").style.display = 'none';
+    document.getElementById("43").style.display = 'none';
+    document.getElementById("44").style.display = 'none';
+    document.getElementById("45").style.display = 'none';
+    document.getElementById("46").style.display = 'none';
+    document.getElementById("47").style.display = 'none';
+    document.getElementById("48").style.display = 'none';
+    document.getElementById("49").style.display = 'none';
+    document.getElementById("50").style.display = 'none';
+
+}
 function prikaziPrvuStranu(){ //Prikazuje proizvode sa prve stranice
-    alert("radi");
-    for(var i = 1; i<=10; i++){
-        document.getElementById(i).style.display = 'block';
-    }
-    for(var i = 10; i<=50; i++){
-        document.getElementById(n).style.display = 'none';
-    }
+        sakriSve();
+        document.getElementById("1").style.display = 'block';
+        document.getElementById("2").style.display = 'block';
+        document.getElementById("3").style.display = 'block';
+        document.getElementById("4").style.display = 'block';
+        document.getElementById("5").style.display = 'block';
+        document.getElementById("6").style.display = 'block';
+        document.getElementById("7").style.display = 'block';
+        document.getElementById("8").style.display = 'block';
+        document.getElementById("9").style.display = 'block';
+        document.getElementById("10").style.display = 'block';
+
+        
 }
 function prikaziDruguStranu(){ //Prikazuje proizvode sa druge stranice
-    for(var i = 10; i<=20; i++){
-        document.getElementById(i).style.display = 'block';
-    }
-    for(var i = 1; i<=10; i++){
-        document.getElementById(n).style.display = 'none';
-    }
-    for(var i = 20; i<=50; i++){
-        document.getElementById(n).style.display = 'none';
-    }
+    sakriSve();
+        document.getElementById("11").style.display = 'block';
+        document.getElementById("12").style.display = 'block';
+        document.getElementById("13").style.display = 'block';
+        document.getElementById("14").style.display = 'block';
+        document.getElementById("15").style.display = 'block';
+        document.getElementById("16").style.display = 'block';
+        document.getElementById("17").style.display = 'block';
+        document.getElementById("18").style.display = 'block';
+        document.getElementById("19").style.display = 'block';
+        document.getElementById("20").style.display = 'block';
 }
 function prikaziTrecuStranu(){ //Prikazuje proizvode sa trece stranice
-    for(var i = 20; i<=30; i++){
-        document.getElementById(i).style.display = 'block';
-    }
-    for(var i = 1; i<=20; i++){
-        document.getElementById(n).style.display = 'none';
-    }
-    for(var i = 30; i<=50; i++){
-        document.getElementById(n).style.display = 'none';
-    }
+    sakriSve();
+        document.getElementById("21").style.display = 'block';
+        document.getElementById("22").style.display = 'block';
+        document.getElementById("23").style.display = 'block';
+        document.getElementById("24").style.display = 'block';
+        document.getElementById("25").style.display = 'block';
+        document.getElementById("26").style.display = 'block';
+        document.getElementById("27").style.display = 'block';
+        document.getElementById("28").style.display = 'block';
+        document.getElementById("29").style.display = 'block';
+        document.getElementById("30").style.display = 'block';
 }
 function prikaziCetvrtuStranu(){ //Prikazuje proizvode sa cetvrte stranice
-    for(var i = 30; i<=40; i++){
-        document.getElementById(i).style.display = 'block';
-    }
-    for(var i = 1; i<=30; i++){
-        document.getElementById(n).style.display = 'none';
-    }
-    for(var i = 40; i<=50; i++){
-        document.getElementById(n).style.display = 'none';
-    }
-}
-function prikaziPetuStranu(){ //Prikazuje proizvode sa pete stranice
-    for(var i = 40; i<=50; i++){
-        document.getElementById(i).style.display = 'block';
-    }
-    for(var i = 1; i<=40; i++){
-        document.getElementById(n).style.display = 'none';
-    }
+    sakriSve();
+        document.getElementById("41").style.display = 'block';
+        document.getElementById("42").style.display = 'block';
+        document.getElementById("43").style.display = 'block';
+        document.getElementById("44").style.display = 'block';
+        document.getElementById("45").style.display = 'block';
+        document.getElementById("46").style.display = 'block';
+        document.getElementById("47").style.display = 'block';
+        document.getElementById("48").style.display = 'block';
+        document.getElementById("49").style.display = 'block';
+        document.getElementById("50").style.display = 'block';
 }
 function sort(value) {
     if (value == '2') { //Sortira po opadajucem redosledu
