@@ -6,6 +6,56 @@ function prikazi(n){ //Prikazuje proizvode
 function sakri(n){ //Sakriva proizvode
         document.getElementById(n).style.display = 'none';
 }
+function prikaziPrvuStranu(){ //Prikazuje proizvode sa prve stranice
+    alert("radi");
+    for(var i = 1; i<=10; i++){
+        document.getElementById(i).style.display = 'block';
+    }
+    for(var i = 10; i<=50; i++){
+        document.getElementById(n).style.display = 'none';
+    }
+}
+function prikaziDruguStranu(){ //Prikazuje proizvode sa druge stranice
+    for(var i = 10; i<=20; i++){
+        document.getElementById(i).style.display = 'block';
+    }
+    for(var i = 1; i<=10; i++){
+        document.getElementById(n).style.display = 'none';
+    }
+    for(var i = 20; i<=50; i++){
+        document.getElementById(n).style.display = 'none';
+    }
+}
+function prikaziTrecuStranu(){ //Prikazuje proizvode sa trece stranice
+    for(var i = 20; i<=30; i++){
+        document.getElementById(i).style.display = 'block';
+    }
+    for(var i = 1; i<=20; i++){
+        document.getElementById(n).style.display = 'none';
+    }
+    for(var i = 30; i<=50; i++){
+        document.getElementById(n).style.display = 'none';
+    }
+}
+function prikaziCetvrtuStranu(){ //Prikazuje proizvode sa cetvrte stranice
+    for(var i = 30; i<=40; i++){
+        document.getElementById(i).style.display = 'block';
+    }
+    for(var i = 1; i<=30; i++){
+        document.getElementById(n).style.display = 'none';
+    }
+    for(var i = 40; i<=50; i++){
+        document.getElementById(n).style.display = 'none';
+    }
+}
+function prikaziPetuStranu(){ //Prikazuje proizvode sa pete stranice
+    for(var i = 40; i<=50; i++){
+        document.getElementById(i).style.display = 'block';
+    }
+    for(var i = 1; i<=40; i++){
+        document.getElementById(n).style.display = 'none';
+    }
+}
 function sort(value) {
     if (value == '2') { //Sortira po opadajucem redosledu
 	var c = 0;

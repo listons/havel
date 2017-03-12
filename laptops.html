@@ -42,11 +42,11 @@
         </div>
 
         <div id="stranice">
-            <button class="dugmiki" id="dug1">1</button>
-            <button class="dugmiki" id="dug2">2</button>
-            <button class="dugmiki" id="dug3">3</button>
-            <button class="dugmiki" id="dug4">4</button>
-            <button class="dugmiki" id="dug5">5</button>
+            <button class="dugmiki" id="dug1" onclick="prikaziPrvuStranu()">1</button>
+            <button class="dugmiki" id="dug2"onclick="prikaziDruguStranu()">2</button>
+            <button class="dugmiki" id="dug3"onclick="prikaziTrecuStranu()">3</button>
+            <button class="dugmiki" id="dug4"onclick="prikaziCetvrtuStranu()">4</button>
+            <button class="dugmiki" id="dug5"onclick="prikaziPetuStranu()">5</button>
 
             <select class="lista" onchange="sort(this.value)" >
             <option selected disabled hidden  >Sortiraj:</option>
@@ -60,7 +60,7 @@
    
 
 
-            <div class="bel b1" >
+            <div class="bel b1" id="1" >
             <div  class="elementi">                
                 <img src="images/laptopi/l1.jpg">
             </div>
@@ -139,7 +139,322 @@
             <div class="lime">Lenovo 10</div>
             <div class="lcena">58.430 din.</div>
             </div>
+            <div class="bel b1" id="11" >
+            <div  class="elementi">                
+                <img src="images/laptopi/l1.jpg">
+            </div>
+            <div class="lime">Lenovo 11</div>
+            <div class="lcena">48.430 din.</div>
+            </div>
 
+            <div class="bel b2" id="12"  >
+            <div  class="elementi">
+                <img src="images/laptopi/l2.jpg">
+            </div>
+            <div class="lime">Lenovo 12</div>
+            <div class="lcena">58.430 din.</div>
+            </div>
+
+            <div class="bel b3" id="13" >
+            <div  class="elementi">
+                <img src="images/laptopi/l3.jpg">
+            </div>
+            <div class="lime">Lenovo 13</div> 
+            <div class="lcena">38.430 din.</div>
+            </div>
+
+            <div class="bel b4" id="14" >
+            <div  class="elementi">
+                <img src="images/laptopi/l4.jpg">
+            </div>
+            <div class="lime">Lenovo 14</div>
+            <div class="lcena">28.430 din.</div>
+            </div>
+
+            <div class="bel b5" id="15" >
+            <div  class="elementi">
+                <img src="images/laptopi/l5.jpg">
+            </div>
+            <div class="lime">Lenovo 15</div>
+            <div class="lcena">88.430 din.</div>
+            </div>
+
+            <div class="bel b6" id="16" >
+            <div  class="elementi">
+                <img src="images/laptopi/l6.jpg">
+            </div>
+            <div class="lime">Lenovo 16</div> 
+            <div class="lcena">18.430 din.</div>
+            </div>
+
+            <div class="bel b7" id="17" >
+            <div  class="elementi">
+                <img src="images/laptopi/l7.jpg">
+            </div>
+            <div class="lime">Lenovo 17</div>
+            <div class="lcena">68.430 din.</div>
+            </div>
+
+            <div class="bel b8" id="18" >
+            <div  class="elementi">
+                <img src="images/laptopi/l8.jpg">
+            </div>
+            <div class="lime">Lenovo 18</div>
+            <div class="lcena">78.430 din.</div>
+            </div>
+
+            <div class="bel b9" id="19" >
+            <div  class="elementi">
+                <img src="images/laptopi/l9.jpg">
+            </div>
+            <div class="lime">Lenovo 19</div> 
+            <div class="lcena">98.430 din.</div>
+            </div>
+
+            <div class="bel b10" id="20" >
+            <div  class="elementi">
+                <img src="images/laptopi/l10.jpg">
+            </div>
+            <div class="lime">Lenovo 20</div>
+            <div class="lcena">58.430 din.</div>
+            </div>
+            <div class="bel b1" id="21" >
+            <div  class="elementi">                
+                <img src="images/laptopi/l1.jpg">
+            </div>
+            <div class="lime">Lenovo 21</div>
+            <div class="lcena">48.430 din.</div>
+            </div>
+
+            <div class="bel b2" id="22"  >
+            <div  class="elementi">
+                <img src="images/laptopi/l2.jpg">
+            </div>
+            <div class="lime">Lenovo 22</div>
+            <div class="lcena">58.430 din.</div>
+            </div>
+
+            <div class="bel b3" id="23" >
+            <div  class="elementi">
+                <img src="images/laptopi/l3.jpg">
+            </div>
+            <div class="lime">Lenovo 23</div> 
+            <div class="lcena">38.430 din.</div>
+            </div>
+
+            <div class="bel b4" id="24" >
+            <div  class="elementi">
+                <img src="images/laptopi/l4.jpg">
+            </div>
+            <div class="lime">Lenovo 24</div>
+            <div class="lcena">28.430 din.</div>
+            </div>
+
+            <div class="bel b5" id="25" >
+            <div  class="elementi">
+                <img src="images/laptopi/l5.jpg">
+            </div>
+            <div class="lime">Lenovo 25</div>
+            <div class="lcena">88.430 din.</div>
+            </div>
+
+            <div class="bel b6" id="26" >
+            <div  class="elementi">
+                <img src="images/laptopi/l6.jpg">
+            </div>
+            <div class="lime">Lenovo 26</div> 
+            <div class="lcena">18.430 din.</div>
+            </div>
+
+            <div class="bel b7" id="27" >
+            <div  class="elementi">
+                <img src="images/laptopi/l7.jpg">
+            </div>
+            <div class="lime">Lenovo 27</div>
+            <div class="lcena">68.430 din.</div>
+            </div>
+
+            <div class="bel b8" id="28" >
+            <div  class="elementi">
+                <img src="images/laptopi/l8.jpg">
+            </div>
+            <div class="lime">Lenovo 28</div>
+            <div class="lcena">78.430 din.</div>
+            </div>
+
+            <div class="bel b9" id="29" >
+            <div  class="elementi">
+                <img src="images/laptopi/l9.jpg">
+            </div>
+            <div class="lime">Lenovo 29</div> 
+            <div class="lcena">98.430 din.</div>
+            </div>
+
+            <div class="bel b10" id="30" >
+            <div  class="elementi">
+                <img src="images/laptopi/l10.jpg">
+            </div>
+            <div class="lime">Lenovo 30</div>
+            <div class="lcena">58.430 din.</div>
+            </div>
+            <div class="bel b1" id="31" >
+            <div  class="elementi">                
+                <img src="images/laptopi/l1.jpg">
+            </div>
+            <div class="lime">Lenovo 31</div>
+            <div class="lcena">48.430 din.</div>
+            </div>
+
+            <div class="bel b2" id="32"  >
+            <div  class="elementi">
+                <img src="images/laptopi/l2.jpg">
+            </div>
+            <div class="lime">Lenovo 32</div>
+            <div class="lcena">58.430 din.</div>
+            </div>
+
+            <div class="bel b3" id="33" >
+            <div  class="elementi">
+                <img src="images/laptopi/l3.jpg">
+            </div>
+            <div class="lime">Lenovo 33</div> 
+            <div class="lcena">38.430 din.</div>
+            </div>
+
+            <div class="bel b4" id="34" >
+            <div  class="elementi">
+                <img src="images/laptopi/l4.jpg">
+            </div>
+            <div class="lime">Lenovo 34</div>
+            <div class="lcena">28.430 din.</div>
+            </div>
+
+            <div class="bel b5" id="35" >
+            <div  class="elementi">
+                <img src="images/laptopi/l5.jpg">
+            </div>
+            <div class="lime">Lenovo 35</div>
+            <div class="lcena">88.430 din.</div>
+            </div>
+
+            <div class="bel b6" id="36" >
+            <div  class="elementi">
+                <img src="images/laptopi/l6.jpg">
+            </div>
+            <div class="lime">Lenovo 36</div> 
+            <div class="lcena">18.430 din.</div>
+            </div>
+
+            <div class="bel b7" id="37" >
+            <div  class="elementi">
+                <img src="images/laptopi/l7.jpg">
+            </div>
+            <div class="lime">Lenovo 37</div>
+            <div class="lcena">68.430 din.</div>
+            </div>
+
+            <div class="bel b8" id="38" >
+            <div  class="elementi">
+                <img src="images/laptopi/l8.jpg">
+            </div>
+            <div class="lime">Lenovo 38</div>
+            <div class="lcena">78.430 din.</div>
+            </div>
+
+            <div class="bel b9" id="39" >
+            <div  class="elementi">
+                <img src="images/laptopi/l9.jpg">
+            </div>
+            <div class="lime">Lenovo 39</div> 
+            <div class="lcena">98.430 din.</div>
+            </div>
+
+            <div class="bel b10" id="40" >
+            <div  class="elementi">
+                <img src="images/laptopi/l10.jpg">
+            </div>
+            <div class="lime">Lenovo 40</div>
+            <div class="lcena">58.430 din.</div>
+            </div>
+            <div class="bel b1" id="41" >
+            <div  class="elementi">                
+                <img src="images/laptopi/l1.jpg">
+            </div>
+            <div class="lime">Lenovo 41</div>
+            <div class="lcena">48.430 din.</div>
+            </div>
+
+            <div class="bel b2" id="42"  >
+            <div  class="elementi">
+                <img src="images/laptopi/l2.jpg">
+            </div>
+            <div class="lime">Lenovo 42</div>
+            <div class="lcena">58.430 din.</div>
+            </div>
+
+            <div class="bel b3" id="43" >
+            <div  class="elementi">
+                <img src="images/laptopi/l3.jpg">
+            </div>
+            <div class="lime">Lenovo 43</div> 
+            <div class="lcena">38.430 din.</div>
+            </div>
+
+            <div class="bel b4" id="44" >
+            <div  class="elementi">
+                <img src="images/laptopi/l4.jpg">
+            </div>
+            <div class="lime">Lenovo 44</div>
+            <div class="lcena">28.430 din.</div>
+            </div>
+
+            <div class="bel b5" id="45" >
+            <div  class="elementi">
+                <img src="images/laptopi/l5.jpg">
+            </div>
+            <div class="lime">Lenovo 45</div>
+            <div class="lcena">88.430 din.</div>
+            </div>
+
+            <div class="bel b6" id="46" >
+            <div  class="elementi">
+                <img src="images/laptopi/l6.jpg">
+            </div>
+            <div class="lime">Lenovo 46</div> 
+            <div class="lcena">18.430 din.</div>
+            </div>
+
+            <div class="bel b7" id="47" >
+            <div  class="elementi">
+                <img src="images/laptopi/l7.jpg">
+            </div>
+            <div class="lime">Lenovo 47</div>
+            <div class="lcena">68.430 din.</div>
+            </div>
+
+            <div class="bel b8" id="48" >
+            <div  class="elementi">
+                <img src="images/laptopi/l8.jpg">
+            </div>
+            <div class="lime">Lenovo 48</div>
+            <div class="lcena">78.430 din.</div>
+            </div>
+
+            <div class="bel b9" id="49" >
+            <div  class="elementi">
+                <img src="images/laptopi/l9.jpg">
+            </div>
+            <div class="lime">Lenovo 49</div> 
+            <div class="lcena">98.430 din.</div>
+            </div>
+
+            <div class="bel b10" id="50" >
+            <div  class="elementi">
+                <img src="images/laptopi/l10.jpg">
+            </div>
+            <div class="lime">Lenovo 50</div>
+            <div class="lcena">58.430 din.</div>
+            </div>
 
         
     
