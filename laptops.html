@@ -37,11 +37,42 @@
             <a class="menuItems" href="katalog.html">Katalog</a>
 
         </div>
+
         <div id="navigacija" >
-            navigacija
+            <div id="naviNaslov">PROIZVODI</div>
+            <a href="">
+            <div class="naviItems">Adapteri</div></a>
+            <a href="">
+            <div class="naviItems">Alati</div></a>
+            <a href="">
+            <div class="naviItems">Baštenska oprema</div></a>
+            <a href="">
+            <div class="naviItems">Kućni aparati</div></a>
+            <a href="laptops.html">
+            <div class="naviItems">Laptop računati</div></a>
+            
+
+            <a href="">                
+            <div class="naviItems">Tablet računari</div></a>
+            <a href="">
+            <div  id="naviPoslednji">Telefonija</div></a>
         </div>
 
-        <div id="stranice">
+        <div id="stranice1">
+            <button class="dugmiki" id="dug1" onclick="prikaziPrvuStranu()">1</button>
+            <button class="dugmiki" id="dug2"onclick="prikaziDruguStranu()">2</button>
+            <button class="dugmiki" id="dug3"onclick="prikaziTrecuStranu()">3</button>
+            <button class="dugmiki" id="dug4"onclick="prikaziCetvrtuStranu()">4</button>
+
+            <select class="lista" onchange="sort(this.value)" >
+            <option selected disabled hidden  >Sortiraj:</option>
+            <option class="lista" " value="1">Rastuce</option>
+            <option class="lista" value="2">Opadajuce</option>
+            </select>
+
+        </div>
+
+                <div id="stranice2">
             <button class="dugmiki" id="dug1" onclick="prikaziPrvuStranu()">1</button>
             <button class="dugmiki" id="dug2"onclick="prikaziDruguStranu()">2</button>
             <button class="dugmiki" id="dug3"onclick="prikaziTrecuStranu()">3</button>

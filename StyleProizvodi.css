@@ -22,34 +22,15 @@
     position: absolute;
     box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
 }
-.crn1{	
-	margin-top: 30px;
-	color: white;
-	text-align: left;
-    background-color: white;
-    height:210px;
-    color:  #b3b3b3;
-    width:280px;      
-    position: absolute;    
-    font-size: 14px;
-    
-}
-.crn1 h1{
-	font-weight: bold;
-	color:  #999999;
-	font-size: 18px;
-	text-align: center;
-}
+
+
 .crn:hover{
-	background-color: #e6e6e6;		
-	font-weight: bold;
+
+    background-color: #e6e6e6;  
+    font-weight: bold;
+       box-shadow: 0px 2px 20px 4px rgba(0,0,0,2);
 }
-#linka{
-	margin-top: 240px;
-	background-color: #f2f2f2;
-	height: 1px;
-	width: 998px;
-}
+
 
 
 #red1{ padding-top: 60px; }
@@ -64,7 +45,7 @@
 
 .mob{ background-image: url('images/poc/fon.jpg'); }
 
-.usi{ background-image: url('images/poc/usisi.jpg'); }
+.usi{ background-image: url('images/poc/basta.jpg'); }
 
 .ap{ background-image: url('images/poc/mikro.jpg'); }
 
@@ -72,26 +53,77 @@
 
 .alt{ background-image: url('images/poc/alat.jpg'); }
 
-.lap1{ margin-left: 260px; }
+.lap1{ margin-left: 285px; }
 
-.tab1{ margin-left: 610px; }
+.tab1{ margin-left: 635px; }
 
-.mob1{  margin-left: 260px; }
+.mob1{  margin-left: 285px; }
 
-.usi1{ margin-left: 610px; }
+.usi1{ margin-left: 635px; }
 
-.ap1{ margin-left: 260px; }
+.ap1{ margin-left: 285px; }
 
-.bas1{ margin-left: 260px; }
+.bas1{ margin-left: 285px; }
 
-.alt1{ margin-left: 610px; }
+.alt1{ margin-left: 635px; }
 
 
 #navigacija
 {
+
     position: absolute;
     margin-top: 60px;
-    width: 150px;
-    height: 750px;
+    width: 200px;
+    height: auto;
     box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+    background-color: #999999;
+
+}
+#navigacija a
+{
+    text-decoration: none;
+}
+
+.naviItems
+{
+    padding-left: 10px;
+    color: white;
+    height:40px;
+    text-align: left;
+    line-height:40px;
+    font-size: 16px;
+    border: 3px solid white;
+    border-width:0px 0px 1px 0px;
+}
+
+.naviItems:hover 
+{
+    background-color: #3D3D3D;
+}
+
+#naviNaslov
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height:40px;
+    border: 3px solid white;
+    border-width:0px 0px 2px 0px;
+
+}
+
+#naviPoslednji
+{
+    padding-left: 10px;
+    color: white;
+    height:40px;s
+    text-align: left;
+    line-height:40px;
+    font-size: 16px;
+    border: 0px;
+}
+#naviPoslednji:hover
+{
+    background-color: #3D3D3D;
 }
