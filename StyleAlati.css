@@ -1,0 +1,295 @@
+#container{
+	 height:3000px;
+}
+
+.podacivise
+{
+    display: none;
+    z-index: 2;
+    margin-left: 30px;  
+    color: white;
+    text-align: center;
+    background-color: white;
+    height:470px;
+    color: black;
+    width:940px;       
+    position: absolute;
+    box-shadow: 0px 2px 16px 6px rgba(0,0,0,2);
+}
+
+#laptop1
+{
+    margin-top: 30px;
+}
+
+#laptop2
+{
+    margin-top: 280px;
+}
+
+#laptop3
+{
+    margin-top: 530px;
+}
+
+#laptop4
+{
+    margin-top: 780px;
+}
+
+#laptop5
+{
+    margin-top: 1030px;
+}
+
+#laptop6
+{
+    margin-top: 1280px;
+}
+
+#laptop7
+{
+    margin-top: 1530px;
+}
+
+#laptop8
+{
+    margin-top: 1780px;
+}
+
+#laptop9
+{
+    margin-top: 2030px;
+}
+
+#laptop10
+{
+    margin-top: 2280px;
+}
+#glavni
+{
+   
+    margin-top: 30px;
+    position: absolute;     
+    width: 800px;
+    height: 100%;
+    margin-left: 200px;
+
+}
+
+.dugmiki
+{
+        
+    font-size: 12px;
+    color: white;
+    background-color: #999999;
+    border: 0px;
+    height: 20px;
+    width: 20px;
+ 
+
+}
+.lista
+{
+        
+    font-size: 12px;
+    color: white;
+    background-color: #999999;
+    border: 0px;   
+    height: 20px;
+    
+}
+#dug1
+{
+margin-left: 350px;
+}
+#stranice1
+{
+   
+    margin-top: 20px;
+    position: absolute;     
+    width: 850px;
+    height: 40px;
+    margin-left: 150px;
+    align-items: center;
+    z-index: 5;
+
+}
+#stranice2
+{
+   
+    margin-top: 2550px;
+    position: absolute;     
+    width: 850px;
+    height: 40px;
+    margin-left: 150px;
+    align-items: center;
+    z-index: 5;
+
+}
+#navigacija
+{
+    position: absolute;
+    margin-top: 60px;
+    width: 150px;
+    height: 100%;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+}
+.bel
+{ 
+
+    margin-left: 50px;  
+    color: white;
+    text-align: center;
+    background-color: white;
+    height:220px;
+    color: black;
+    width:700px;       
+    position: absolute;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+}
+
+.bel:hover
+{
+    box-shadow: 0px 2px 20px 4px rgba(0,0,0,2);
+}
+
+.elementi
+{
+    background-color: red;
+    height:220px;
+    width:256px; 
+    position: absolute;    
+    z-index: 1 ;
+}
+.lime{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: arial;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+}
+
+
+
+.lcena{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 50%;
+}
+
+
+.b1{    margin-top: 30px; }
+.b2{    margin-top: 280px; }
+.b3{    margin-top: 530px; }
+.b4{    margin-top: 780px; }
+.b5{    margin-top: 1030px; }
+.b6{    margin-top: 1280px; }
+.b7{    margin-top: 1530px; }
+.b8{    margin-top: 1780px; }
+.b9{    margin-top: 2030px; }
+.b10{    margin-top: 2280px; }
+
+
+
+#navigacija
+{
+
+    position: absolute;
+    margin-top: 60px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
+
+
+}
+#navigacija a
+{
+    text-decoration: none;
+}
+
+
+
+.naviItems
+{
+    background-color: #999999;
+    padding-left: 10px;
+    color: white;
+    height:40px;
+    text-align: left;
+    line-height:40px;
+    font-size: 16px;
+    border: 3px solid white;
+    border-width:0px 0px 1px 0px;
+}
+.naviPodItems
+{
+    padding-left: 30px;
+    color: #999999;
+    height:30px;
+    text-align: left;
+    line-height:30px;
+    font-size: 15px;
+    border: 3px solid white;
+    border-width:0px 0px 1px 0px;
+    background-color: white;
+    cursor: pointer;
+
+}
+.naviItems:hover 
+{
+    background-color: #3D3D3D;
+}
+.naviPodItems:hover 
+{
+    background-color: #999999;
+    color: white;
+}
+
+#naviNaslov
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height:40px;
+    border: 3px solid white;
+    border-width:0px 0px 2px 0px;
+    background-color: #999999;
+
+}
+
+#naviTel
+{
+    padding-left: 10px;
+    color: white;
+    height:40px;
+    text-align: left;
+    line-height:40px;
+    font-size: 16px;
+    border: 0px;
+    background-color: #999999;
+}
+#naviTel:hover
+{
+    background-color: #3D3D3D;
+}
+
+#naviLaptop
+{
+    background-color: #999999;
+}
+#naviLaptop:hover
+{
+    background-color: #3D3D3D;
+}
+
+
+#naviAlati
+{
+    background-color: #3D3D3D;    
+}
