@@ -6,6 +6,18 @@ function prikazi(n){ //Prikazuje proizvode
 function sakri(n){ //Sakriva proizvode
         document.getElementById(n).style.display = 'none';
 }
+function staraBoja(){ //Svima stara boja
+        
+        document.getElementById("dug1").style.backgroundColor = "#999999";
+        document.getElementById("dug2").style.backgroundColor = "#999999";
+        document.getElementById("dug3").style.backgroundColor = "#999999";
+        document.getElementById("dug4").style.backgroundColor = "#999999";
+
+}
+function boja(n){ //Menja boju
+    staraBoja();
+    document.getElementById(n).style.backgroundColor = "#3D3D3D";
+}
 function sakriSve(){
     document.getElementById("1").style.display = 'none';
     document.getElementById("2").style.display = 'none';
@@ -245,6 +257,3 @@ else if (value == '3') { //Sortira po brendu
     }
 }
 }
-
-
-
