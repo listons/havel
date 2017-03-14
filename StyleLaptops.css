@@ -86,6 +86,7 @@
     border: 0px;
     height: 20px;
     width: 20px;
+ 
 
 }
 .lista
@@ -96,6 +97,7 @@
     background-color: #999999;
     border: 0px;   
     height: 20px;
+    
 }
 #dug1
 {
@@ -110,6 +112,7 @@ margin-left: 350px;
     height: 40px;
     margin-left: 150px;
     align-items: center;
+    z-index: 5;
 
 }
 #stranice2
@@ -121,6 +124,7 @@ margin-left: 350px;
     height: 40px;
     margin-left: 150px;
     align-items: center;
+    z-index: 5;
 
 }
 #navigacija
@@ -200,7 +204,7 @@ margin-left: 350px;
     width: 200px;
     height: auto;
     box-shadow: 0px 2px 16px 0px rgba(0,0,0,2);
-    background-color: #999999;
+
 
 }
 #navigacija a
@@ -208,8 +212,11 @@ margin-left: 350px;
     text-decoration: none;
 }
 
+
+
 .naviItems
 {
+    background-color: #999999;
     padding-left: 10px;
     color: white;
     height:40px;
@@ -219,9 +226,28 @@ margin-left: 350px;
     border: 3px solid white;
     border-width:0px 0px 1px 0px;
 }
+.naviPodItems
+{
+    padding-left: 30px;
+    color: #999999;
+    height:30px;
+    text-align: left;
+    line-height:30px;
+    font-size: 15px;
+    border: 3px solid white;
+    border-width:0px 0px 1px 0px;
+    background-color: white;
+    cursor: pointer;
+
+}
 .naviItems:hover 
 {
     background-color: #3D3D3D;
+}
+.naviPodItems:hover 
+{
+    background-color: #999999;
+    color: white;
 }
 
 #naviNaslov
@@ -233,10 +259,11 @@ margin-left: 350px;
     line-height:40px;
     border: 3px solid white;
     border-width:0px 0px 2px 0px;
+    background-color: #999999;
 
 }
 
-#naviPoslednji
+#naviTel
 {
     padding-left: 10px;
     color: white;
@@ -245,8 +272,14 @@ margin-left: 350px;
     line-height:40px;
     font-size: 16px;
     border: 0px;
+    background-color: #999999;
 }
-#naviPoslednji:hover
+#naviTel:hover
+{
+    background-color: #3D3D3D;
+}
+
+#naviLaptop
 {
     background-color: #3D3D3D;
 }
