@@ -6,7 +6,7 @@
     <link href="Style.css" rel="stylesheet" type="text/css" />
     <link href="StyleAparati.css" rel="stylesheet" type="text/css" />
 </head>
-<body onload="prikaziPrvuStranu()">
+<body onload="prikaziPrvuStranu(); boja('dug1');">
     
 
     <div id="container">
@@ -55,10 +55,10 @@
         </div>
 
         <div id="stranice1">
-            <button class="dugmiki" id="dug1" onclick="prikaziPrvuStranu(); boja(this.id);">1</button>
-            <button class="dugmiki" id="dug2"onclick="prikaziDruguStranu()">2</button>
-            <button class="dugmiki" id="dug3"onclick="prikaziTrecuStranu()">3</button>
-            <button class="dugmiki" id="dug4"onclick="prikaziCetvrtuStranu()">4</button>
+           <button class="dugmiki" id="dug1" onclick="prikaziPrvuStranu(); boja(this.id);">1</button>
+            <button class="dugmiki" id="dug2"onclick="prikaziDruguStranu(); boja(this.id);">2</button>
+            <button class="dugmiki" id="dug3"onclick="prikaziTrecuStranu(); boja(this.id);">3</button>
+            <button class="dugmiki" id="dug4"onclick="prikaziCetvrtuStranu(); boja(this.id);">4</button>
 
             <select class="lista" onchange="sort(this.value)" >
             <option selected disabled hidden  >Sortiraj:</option>
@@ -70,10 +70,10 @@
         </div>
 
                 <div id="stranice2">
-            <button class="dugmiki" id="dug1" onclick="prikaziPrvuStranu()">1</button>
-            <button class="dugmiki" id="dug2"onclick="prikaziDruguStranu()">2</button>
-            <button class="dugmiki" id="dug3"onclick="prikaziTrecuStranu()">3</button>
-            <button class="dugmiki" id="dug4"onclick="prikaziCetvrtuStranu()">4</button>
+            <button class="dugmiki" id="dug1" onclick="prikaziPrvuStranu(); boja(this.id);">1</button>
+            <button class="dugmiki" id="dug2"onclick="prikaziDruguStranu(); boja(this.id);">2</button>
+            <button class="dugmiki" id="dug3"onclick="prikaziTrecuStranu(); boja(this.id);">3</button>
+            <button class="dugmiki" id="dug4"onclick="prikaziCetvrtuStranu(); boja(this.id);">4</button>
 
             <select class="lista" onchange="sort(this.value)" >
             <option selected disabled hidden  >Sortiraj:</option>
