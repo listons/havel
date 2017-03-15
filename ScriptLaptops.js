@@ -14,9 +14,80 @@ function staraBoja(){ //Svima stara boja
         document.getElementById("dug4").style.backgroundColor = "#999999";
 
 }
+function staraBojaNavi(){ //Svima stara boja
+        
+        document.getElementById("navigacijaultra").style.backgroundColor = "white";
+        document.getElementById("navigacijaNote").style.backgroundColor = "white";
+        document.getElementById("navigacijaLap").style.backgroundColor = "white";
+}
 function boja(n){ //Menja boju
     staraBoja();
     document.getElementById(n).style.backgroundColor = "#3D3D3D";
+}
+function ultrabook(n){ //Prikazuje samo ultrabook
+    staraBojaNavi();
+    document.getElementById(n).style.backgroundColor = "#3D3D3D";
+    sakriSve();
+        document.getElementById("3").style.display = 'block';
+        document.getElementById("4").style.display = 'block';
+        document.getElementById("9").style.display = 'block';
+        document.getElementById("10").style.display = 'block';
+        document.getElementById("13").style.display = 'block';
+        document.getElementById("14").style.display = 'block';
+        document.getElementById("19").style.display = 'block';
+        document.getElementById("20").style.display = 'block';
+        document.getElementById("23").style.display = 'block';
+        document.getElementById("24").style.display = 'block';
+        document.getElementById("29").style.display = 'block';
+        document.getElementById("30").style.display = 'block';
+        document.getElementById("33").style.display = 'block';
+        document.getElementById("34").style.display = 'block';
+        document.getElementById("39").style.display = 'block';
+        document.getElementById("40").style.display = 'block';
+        document.getElementById("43").style.display = 'block';
+        document.getElementById("44").style.display = 'block';
+        document.getElementById("49").style.display = 'block';
+        document.getElementById("50").style.display = 'block';
+}
+function notebook(n){ //Prikazuje samo notebook
+    staraBojaNavi();
+    document.getElementById(n).style.backgroundColor = "#3D3D3D";
+    sakriSve();
+        document.getElementById("5").style.display = 'block';
+        document.getElementById("7").style.display = 'block';
+        document.getElementById("8").style.display = 'block';
+        document.getElementById("15").style.display = 'block';
+        document.getElementById("17").style.display = 'block';
+        document.getElementById("18").style.display = 'block';
+        document.getElementById("25").style.display = 'block';
+        document.getElementById("27").style.display = 'block';
+        document.getElementById("28").style.display = 'block';
+        document.getElementById("35").style.display = 'block';
+        document.getElementById("37").style.display = 'block';
+        document.getElementById("38").style.display = 'block';
+        document.getElementById("45").style.display = 'block';
+        document.getElementById("47").style.display = 'block';
+        document.getElementById("48").style.display = 'block';
+}
+function laptop(n){ //Prikazuje samo laptopove
+    staraBojaNavi();
+    document.getElementById(n).style.backgroundColor = "#3D3D3D";
+    sakriSve();
+        document.getElementById("1").style.display = 'block';
+        document.getElementById("2").style.display = 'block';
+        document.getElementById("6").style.display = 'block';
+        document.getElementById("11").style.display = 'block';
+        document.getElementById("12").style.display = 'block';
+        document.getElementById("16").style.display = 'block';
+        document.getElementById("21").style.display = 'block';
+        document.getElementById("22").style.display = 'block';
+        document.getElementById("26").style.display = 'block';
+        document.getElementById("31").style.display = 'block';
+        document.getElementById("32").style.display = 'block';
+        document.getElementById("36").style.display = 'block';
+        document.getElementById("41").style.display = 'block';
+        document.getElementById("42").style.display = 'block';
+        document.getElementById("46").style.display = 'block';
 }
 function sakriSve(){
     document.getElementById("1").style.display = 'none';
