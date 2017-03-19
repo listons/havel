@@ -6,7 +6,8 @@
     <link href="Style.css" rel="stylesheet" type="text/css" />
     <link href="StyleLaptops.css" rel="stylesheet" type="text/css" />
 </head>
-<body onload="prikaziPrvuStranu(); boja('dug1');">
+<body onload="prikaziPrvuStranu()
+">
     
 
     <div id="container">
@@ -48,8 +49,9 @@
             <div class="naviItems" id="naviKucni">Kućni aparati</div></a>
             <a href="laptops.html">
             <div class="naviItems" id="naviLaptop">Laptop računari</div></a>
-                <div class="naviPodItems">Ultrabook</div>
-                <div class="naviPodItems">Notebook</div>
+                <div id="navigacijaultra" onclick="ultrabook(this.id)" class="naviPodItems">Ultrabook</div>
+                <div id="navigacijaNote" onclick="laptop(this.id)" class="naviPodItems">Laptopovi</div>
+                <div id="navigacijaLap" onclick="notebook(this.id)" class="naviPodItems">Notebook</div>
             <a href="tablet.html">                
             <div class="naviItems">Tablet računari</div></a>
             <a href="mobilniTelefoni.html">
@@ -93,7 +95,7 @@
             <div  class="elementi">                
                 <img src="images/laptopi/l1.jpg">
             </div>
-            <div class="lime">Lenovo 1</div>
+            <div class="lime">Lenovo G50 - Laptop</div>
             <div class="lcena">48.430 din.</div>
             </div>
 
@@ -101,7 +103,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l2.jpg">
             </div>
-            <div class="lime">Lenovo 2</div>
+            <div class="lime">Acer - Laptop</div>
             <div class="lcena">58.430 din.</div>
             </div>
 
@@ -109,7 +111,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l3.jpg">
             </div>
-            <div class="lime">Lenovo 3</div> 
+            <div class="lime">Acer - Ultrabook</div> 
             <div class="lcena">38.430 din.</div>
             </div>
 
@@ -117,7 +119,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l4.jpg">
             </div>
-            <div class="lime">Lenovo 4</div>
+            <div class="lime">Acer - Ultrabook</div>
             <div class="lcena">28.430 din.</div>
             </div>
 
@@ -125,7 +127,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l5.jpg">
             </div>
-            <div class="lime">Lenovo 5</div>
+            <div class="lime">Acer - Notebook</div>
             <div class="lcena">88.430 din.</div>
             </div>
 
@@ -133,7 +135,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l6.jpg">
             </div>
-            <div class="lime">Lenovo 6</div> 
+            <div class="lime">Acer - Laptop</div> 
             <div class="lcena">18.430 din.</div>
             </div>
 
@@ -141,7 +143,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l7.jpg">
             </div>
-            <div class="lime">Lenovo 7</div>
+            <div class="lime">Asus - Notebook</div>
             <div class="lcena">68.430 din.</div>
             </div>
 
@@ -149,7 +151,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l8.jpg">
             </div>
-            <div class="lime">Lenovo 8</div>
+            <div class="lime">Acer Notebook</div>
             <div class="lcena">78.430 din.</div>
             </div>
 
@@ -157,7 +159,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l9.jpg">
             </div>
-            <div class="lime">Lenovo 9</div> 
+            <div class="lime">Lenovo - Ultrabook</div> 
             <div class="lcena">98.430 din.</div>
             </div>
 
@@ -165,7 +167,7 @@
             <div  class="elementi">
                 <img src="images/laptopi/l10.jpg">
             </div>
-            <div class="lime">Lenovo 10</div>
+            <div class="lime">Lenovo - Ultrabook</div>
             <div class="lcena">58.430 din.</div>
             </div>
             <div class="bel b1" id="11" >
